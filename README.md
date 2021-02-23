@@ -1,4 +1,6 @@
-#Desafio Node Nginx:
+![](https://komarev.com/ghpvc/?username=danielAmazonas&color=brightgreen)
+
+# Desafio Node Nginx:
 
 ## Instruções de instalação
 
