@@ -14,7 +14,6 @@ let results;
 connection.query(`SELECT * FROM people;`, async (err, res) => {
   if (err) throw err;
   results = JSON.parse(JSON.stringify(res));
-  console.log(results);
   return results;
 });
 connection.end();
