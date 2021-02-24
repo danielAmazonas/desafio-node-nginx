@@ -15,14 +15,9 @@ Certifique-se de ter o Git instalado, antes de continuar.
 Para clonar e executar este aplicativo, você precisará do Git instalado no seu computador.
 
 `$ git clone https://github.com/danielAmazonas/desafio-node-nginx.git`
-`$ cd desafio-node-nginx/node`
-`$ npm install`
+`$ cd desafio-node-nginx`
+`$ docker-compose up -d --build`
 
-#### 2. Execute o docker-compose
-
-`cd ..`
-`docker-compose up -d --build`
-
-#### 3. Acesso
+#### 2. Acesso
 
 No navegador digite: `localhost:8080`
